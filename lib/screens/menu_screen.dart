@@ -1,36 +1,45 @@
 import 'package:flutter/material.dart';
+import 'base_layout.dart'; // Asegúrate de importar tu layout base
 
 class MenuScreen extends StatelessWidget {
   const MenuScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Menu Principal')),
+    return BaseLayout(
+      currentIndex: 0, // Para que se resalte el ícono de inicio en la barra
       body: ListView(
         children: [
           ListTile(
             title: const Text('Gestion de Productos'),
-            leading: Icon(Icons.inventory),
+            leading: const Icon(Icons.inventory),
             onTap: () {
-              print("Has pulsado el boton de producto");
+              print("Has pulsado el botón de producto");
               Navigator.pushNamed(context, '/products');
             },
           ),
           ListTile(
             title: const Text('Gestion de Clientes'),
-            leading: Icon(Icons.person),
+            leading: const Icon(Icons.person),
             onTap: () {
-              print("Has pulsado el boton de clientes");
+              print("Has pulsado el botón de clientes");
               Navigator.pushNamed(context, '/clients');
             },
           ),
           ListTile(
             title: const Text('Gestion de Vendedores'),
-            leading: Icon(Icons.production_quantity_limits),
+            leading: const Icon(Icons.people),
             onTap: () {
-              print("Has pulsado el boton de vendedores");
+              print("Has pulsado el botón de vendedores");
               Navigator.pushNamed(context, '/sellers');
+            },
+          ),
+          ListTile(
+            title: const Text('Gestion de Pedidos'),
+            leading: const Icon(Icons.receipt_long),
+            onTap: () {
+              print("Has pulsado el botón de pedidos");
+              Navigator.pushNamed(context, '/pedidos');
             },
           ),
         ],

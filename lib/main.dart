@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'screens/menu_screen.dart';
+import 'screens/pedido/pedido_listado.dart';
 
 void main() => runApp(const MyApp());
 
@@ -14,6 +15,8 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (context) => const MenuScreen(),
+        '/pedidos': (context) => const PedidoListadoScreen(), // esta es clave
+
 
         // ruta de productos
       },
