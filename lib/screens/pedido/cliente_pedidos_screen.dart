@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import '../../entities/pedido_entity.dart';
-import '../../repositories/pedido_detail_cliente_screen.dart';
+import 'pedido_detail_cliente_screen.dart';
 import '../../repositories/pedido_repository.dart';
 
 class ClientePedidosScreen extends StatefulWidget {

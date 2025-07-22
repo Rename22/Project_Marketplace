@@ -2,6 +2,7 @@ import '../entities/carrito_entity.dart';
 import '../settings/db_connection.dart';
 import 'producto_repository.dart';
 
+
 class CarritoRepository {
   static String tableName = 'carrito';
 

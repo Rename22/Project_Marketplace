@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import '../../entities/detalle_pedido_entity.dart';
-import '../../entities/pedido_entity.dart';
-import '../../repositories/detalle_pedido_repository.dart';
-import '../../repositories/producto_repository.dart';
+import '../../../entities/detalle_pedido_entity.dart';
+import '../../../entities/pedido_entity.dart';
+import '../../../repositories/detalle_pedido_repository.dart';
+import '../../../repositories/producto_repository.dart';
 
 class PedidoDetailClienteScreen extends StatelessWidget {
   final Pedido pedido;

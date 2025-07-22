@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../../entities/detalle_pedido_entity.dart';
-import '../../entities/pedido_entity.dart';
-import '../../repositories/detalle_pedido_repository.dart';
-import '../../repositories/pedido_repository.dart';
-import '../../repositories/producto_repository.dart';
-import 'usuario_repository.dart';
+import '../../../entities/detalle_pedido_entity.dart';
+import '../../../entities/pedido_entity.dart';
+import '../../../repositories/detalle_pedido_repository.dart';
+import '../../../repositories/pedido_repository.dart';
+import '../../../repositories/producto_repository.dart';
+import '../../repositories/usuario_repository.dart';
 
 class PedidoDetailVendedorScreen extends StatefulWidget {
   final Pedido pedido;

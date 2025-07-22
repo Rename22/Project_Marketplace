@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:project_marketplace/entities/pedido_entity.dart';
 
-import 'repositories/pedido_detail_cliente_screen.dart';
-import 'repositories/pedido_detail_vendedor_screen.dart';
-import 'repositories/vendedor_pedidos_screen.dart';
+import 'screens/pedido/pedido_detail_cliente_screen.dart';
+import 'screens/pedido/pedido_detail_vendedor_screen.dart';
+import 'screens/pedido/vendedor_pedidos_screen.dart';
 import 'screens/pedido/cliente_pedidos_screen.dart';
 import 'screens/producto/carrito_screen.dart';
 import 'screens/producto/producto_formulario.dart';

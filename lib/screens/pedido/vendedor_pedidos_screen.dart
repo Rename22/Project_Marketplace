@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import '../../entities/pedido_entity.dart';
-import '../../repositories/pedido_repository.dart';
-import '../../repositories/usuario_repository.dart';
+import '../../../entities/pedido_entity.dart';
+import '../../../repositories/pedido_repository.dart';
+import '../../../repositories/usuario_repository.dart';
 import 'pedido_detail_vendedor_screen.dart';
 
 class VendedorPedidosScreen extends StatefulWidget {
